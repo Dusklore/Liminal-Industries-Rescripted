@@ -1,0 +1,7 @@
+
+["Jumpscare Settings"]
+	#Specifies if smilers should jumpscare, or just kill you on contact
+	jumpscares = true
+	#Specifies if smilers should kill you. If disabled it will give you the wither/darkness effect.
+	killaftercontact = true
+
