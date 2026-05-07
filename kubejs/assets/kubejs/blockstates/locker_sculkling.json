@@ -1,0 +1,132 @@
+{
+    "variants": {
+        "facing=north,half=bottom,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 0
+        },
+        "facing=east,half=bottom,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 90
+        },
+        "facing=south,half=bottom,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 180
+        },
+        "facing=west,half=bottom,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 270
+        },
+        "facing=north,half=top,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 0
+        },
+        "facing=east,half=top,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 90
+        },
+        "facing=south,half=top,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 180
+        },
+        "facing=west,half=top,open=false,triggered=false": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 270
+        },
+        "facing=north,half=bottom,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_bottom_open",
+            "y": 0
+        },
+        "facing=east,half=bottom,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_bottom_open",
+            "y": 90
+        },
+        "facing=south,half=bottom,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_bottom_open",
+            "y": 180
+        },
+        "facing=west,half=bottom,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_bottom_open",
+            "y": 270
+        },
+        "facing=north,half=top,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 0
+        },
+        "facing=east,half=top,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 90
+        },
+        "facing=south,half=top,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 180
+        },
+        "facing=west,half=top,open=true,triggered=false": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 270
+        },
+        "facing=north,half=bottom,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 0
+        },
+        "facing=east,half=bottom,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 90
+        },
+        "facing=south,half=bottom,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 180
+        },
+        "facing=west,half=bottom,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_bottom",
+            "y": 270
+        },
+        "facing=north,half=top,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 0
+        },
+        "facing=east,half=top,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 90
+        },
+        "facing=south,half=top,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 180
+        },
+        "facing=west,half=top,open=false,triggered=true": {
+            "model": "kubejs:block/pool_locker_single_top",
+            "y": 270
+        },
+        "facing=north,half=bottom,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_bottom_open_hurt",
+            "y": 0
+        },
+        "facing=east,half=bottom,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_bottom_open_hurt",
+            "y": 90
+        },
+        "facing=south,half=bottom,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_bottom_open_hurt",
+            "y": 180
+        },
+        "facing=west,half=bottom,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_bottom_open_hurt",
+            "y": 270
+        },
+        "facing=north,half=top,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 0
+        },
+        "facing=east,half=top,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 90
+        },
+        "facing=south,half=top,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 180
+        },
+        "facing=west,half=top,open=true,triggered=true": {
+            "model": "kubejs:block/locker_sculkling_top_open",
+            "y": 270
+        }
+    }
+}

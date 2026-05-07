@@ -1,0 +1,16 @@
+{
+   "loader": "fusion:model",
+   "type": "connecting",
+   "connections": [
+      {
+          "type": "match_block",
+          "block": "kubejs:wallpaper_concrete_pillar1"
+      }
+   ],
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/level_1/asphalt_floor",
+    "bottom": "kubejs:block/ceilling2",
+    "side": "kubejs:block/level_1/old_concrete/old_concrete1"
+  }
+}

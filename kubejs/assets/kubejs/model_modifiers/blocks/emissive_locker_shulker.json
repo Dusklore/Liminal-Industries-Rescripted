@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "kubejs:locker_sculkling",
+  ],
+  "append": [
+    "kubejs:block/pool_locker_sculkling_overlay"
+  ],
+  "show_breaking_overlay": false
+}

@@ -1,0 +1,58 @@
+// priority: 0
+
+StartupEvents.registry('block', event => {
+
+	event.create('missing_tiles_empty_perm').displayName('Missing Pool Tiles')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.model('kubejs:block/missing_tiles_empty')
+
+	event.create('missing_tiles_half_perm').displayName('Missing Pool Tiles')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+
+	event.create('transparent_bedrock')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.transparent(true)
+		.defaultCutout()
+		.model('minecraft:block/bedrock')
+
+	event.create('sky_morning_block').displayName('Morning Sky Block')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.transparent(true)
+		.defaultCutout()
+
+	event.create('sky_day_block').displayName('Day Sky Block')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.transparent(true)
+		.defaultCutout()
+
+	event.create('sky_sunset_block').displayName('Sunset Sky Block')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.transparent(true)
+		.defaultCutout()
+
+	event.create('sky_night_block').displayName('Night Sky Block')
+		.fullBlock(true)
+		.material("stone")
+		.soundType("deepslate")
+		.unbreakable()
+		.transparent(true)
+		.defaultCutout()
+})

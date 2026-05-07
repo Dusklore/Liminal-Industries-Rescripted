@@ -1,0 +1,16 @@
+{
+  "type": "backrooms:poolrooms",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "backrooms:the_poolrooms",
+      "layers": [
+        {
+          "block": "kubejs:liminalstone_poolrooms",
+          "height": 71
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

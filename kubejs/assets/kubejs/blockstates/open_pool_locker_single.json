@@ -1,0 +1,596 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/single_base",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/single_base",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/single_base",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/single_base",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_3",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_3",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_3",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_3",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_4",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_4",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_4",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_4",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/single_base",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/single_base",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/single_base",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/single_base",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_3",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_3",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_3",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_3",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_4",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_4",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_4",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/box_4",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    }
+  ]
+}

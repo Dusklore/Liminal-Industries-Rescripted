@@ -1,0 +1,4 @@
+execute as @e[type=minecraft:marker,tag=rail_node,tag=pos_x] at @s if entity @s in minecraft:overworld if entity @p[distance=..100] run function backrooms:railrooms/exit_degrade/pos_x
+execute as @e[type=minecraft:marker,tag=rail_node,tag=neg_x] at @s if entity @s in minecraft:overworld if entity @p[distance=..100] run function backrooms:railrooms/exit_degrade/neg_x
+execute as @e[type=minecraft:marker,tag=rail_node,tag=pos_z] at @s if entity @s in minecraft:overworld if entity @p[distance=..100] run function backrooms:railrooms/exit_degrade/pos_z
+execute as @e[type=minecraft:marker,tag=rail_node,tag=neg_z] at @s if entity @s in minecraft:overworld if entity @p[distance=..100] run function backrooms:railrooms/exit_degrade/neg_z

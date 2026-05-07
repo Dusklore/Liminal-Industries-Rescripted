@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "": [{
+      "model": "kubejs:block/level1/old_concrete/old_concrete1", "weight": 10
+    },
+    {
+      "model": "kubejs:block/level1/old_concrete/old_concrete2", "weight": 1
+    },
+    {
+      "model": "kubejs:block/level1/old_concrete/old_concrete3", "weight": 1
+    },
+    {
+      "model": "kubejs:block/level1/old_concrete/old_concrete4", "weight": 1
+    },
+    {
+      "model": "kubejs:block/level1/old_concrete/old_concrete5", "weight": 1
+    }]
+  }
+}

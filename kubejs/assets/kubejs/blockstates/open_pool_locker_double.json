@@ -1,0 +1,1812 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/double_base",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/double_base",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/double_base",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/double_base",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_1",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/box_2",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/brown_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 0
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/brown_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 0
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/brown_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 0
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/brown_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 0
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/red_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/red_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/red_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/red_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 1
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/orange_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/orange_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/orange_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/orange_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 2
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/yellow_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/yellow_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/yellow_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/yellow_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 3
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/lime_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/lime_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/lime_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/lime_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 4
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/green_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 5
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/green_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 5
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/green_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 5
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/green_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 5
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/cyan_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 6
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/cyan_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 6
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/cyan_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 6
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/cyan_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 6
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_blue_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 7
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_blue_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 7
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_blue_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 7
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_blue_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 7
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/blue_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 8
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/blue_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 8
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/blue_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 8
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/blue_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 8
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/purple_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 9
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/purple_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 9
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/purple_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 9
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/purple_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 9
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/magenta_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 10
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/magenta_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 10
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/magenta_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 10
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/magenta_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 10
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/pink_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 11
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/pink_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 11
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/pink_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 11
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/pink_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 11
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/white_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 12
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/white_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 12
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/white_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 12
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/white_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 12
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_gray_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 13
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_gray_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 13
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_gray_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 13
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/light_gray_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 13
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/gray_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 14
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/gray_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 14
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/gray_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 14
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/gray_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 14
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/black_cloth",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "age": 15
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/black_cloth",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "age": 15
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/black_cloth",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "age": 15
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_top/black_cloth",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "top"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "age": 15
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_base",
+        "uvlock": true,
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_base",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_base",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_base",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box1",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box1",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box1",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box1",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box2",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box2",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box2",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_0_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box2",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_1_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box3",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box3",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box3",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_2_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box3",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box4",
+        "y": 0
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "north"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box4",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "south"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box4",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "east"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "kubejs:block/locker_multi_bottom/double_box4",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "half": "bottom"
+          },
+          {
+            "facing": "west"
+          },
+          {
+            "slot_3_occupied": "true"
+          }
+        ]
+      }
+    }
+  ]
+}
